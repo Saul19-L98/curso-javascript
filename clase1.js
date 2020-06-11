@@ -1,1 +1,2 @@
-console.log('hola mundo JS')
+var nombre = 'Saul', apellido = 'Lainez';
+var nombreCompleto = `${nombre.toUpperCase()} ${apellido.toLocaleLowerCase()}`;
