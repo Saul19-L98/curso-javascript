@@ -1,7 +1,7 @@
 var nombre = 'Saul', apellido = 'Lainez',edad = 22;
 var nombreCompleto = `${nombre.toUpperCase()} ${apellido.toLocaleLowerCase()}`;
 
-function imprimirEdad(){
-    console.log(`${nombre} tiene ${edad} años`)
-
+function imprimirEdad(n,e){
+    console.log(`${n} tiene ${e} años`)
 }
+imprimirEdad(nombre,edad);
